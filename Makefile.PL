@@ -22,4 +22,5 @@ test_requires 'YAML';
 author_tests('xt');
 use_test_base;
 auto_include;
+repository 'http://github.com/tokuhirom/http-session';
 WriteAll;
